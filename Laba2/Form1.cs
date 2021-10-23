@@ -236,9 +236,9 @@ namespace Laba2
                         string strC = Convert.ToString(intC, 2);
                         decoding_result.Text = strC;
 
-                        DecDe.Text = "Decimal = " + Convert.ToString(Convert.ToInt32(encoding.Text, 2), 10);
-                        HexDe.Text = "Hex = " + Convert.ToString(Convert.ToInt32(encoding.Text, 2), 16);
-                        BinDe.Text = "Binary = " + Convert.ToString(Convert.ToInt32(encoding.Text, 2), 2);
+                        DecDe.Text = "Decimal = " + Convert.ToString(Convert.ToInt32(decoding.Text, 2), 10);
+                        HexDe.Text = "Hex = " + Convert.ToString(Convert.ToInt32(decoding.Text, 2), 16);
+                        BinDe.Text = "Binary = " + Convert.ToString(Convert.ToInt32(decoding.Text, 2), 2);
 
                         DecKeyD.Text = "Decimal = " + Convert.ToString(Convert.ToInt32(key_decoding.Text, 2), 10);
                         HexKeyD.Text = "Hex = " + Convert.ToString(Convert.ToInt32(key_decoding.Text, 2), 16);
@@ -279,9 +279,9 @@ namespace Laba2
                         string strC = Convert.ToString(intC, 16);
                         decoding_result.Text = strC;
 
-                        DecDe.Text = "Decimal = " + Convert.ToString(Convert.ToInt32(encoding.Text, 16), 10);
-                        HexDe.Text = "Hex = " + Convert.ToString(Convert.ToInt32(encoding.Text, 16), 16);
-                        BinDe.Text = "Binary = " + Convert.ToString(Convert.ToInt32(encoding.Text, 16), 2);
+                        DecDe.Text = "Decimal = " + Convert.ToString(Convert.ToInt32(decoding.Text, 16), 10);
+                        HexDe.Text = "Hex = " + Convert.ToString(Convert.ToInt32(decoding.Text, 16), 16);
+                        BinDe.Text = "Binary = " + Convert.ToString(Convert.ToInt32(decoding.Text, 16), 2);
 
                         DecKeyD.Text = "Decimal = " + Convert.ToString(Convert.ToInt32(key_decoding.Text, 16), 10);
                         HexKeyD.Text = "Hex = " + Convert.ToString(Convert.ToInt32(key_decoding.Text, 16), 16);
@@ -322,9 +322,9 @@ namespace Laba2
                         string strC = Convert.ToString(intC, 10);
                         decoding_result.Text = strC;
 
-                        DecDe.Text = "Decimal = " + Convert.ToString(Convert.ToInt32(encoding.Text, 10), 10);
-                        HexDe.Text = "Hex = " + Convert.ToString(Convert.ToInt32(encoding.Text, 10), 16);
-                        BinDe.Text = "Binary = " + Convert.ToString(Convert.ToInt32(encoding.Text, 10), 2);
+                        DecDe.Text = "Decimal = " + Convert.ToString(Convert.ToInt32(decoding.Text, 10), 10);
+                        HexDe.Text = "Hex = " + Convert.ToString(Convert.ToInt32(decoding.Text, 10), 16);
+                        BinDe.Text = "Binary = " + Convert.ToString(Convert.ToInt32(decoding.Text, 10), 2);
 
                         DecKeyD.Text = "Decimal = " + Convert.ToString(Convert.ToInt32(key_decoding.Text, 10), 10);
                         HexKeyD.Text = "Hex = " + Convert.ToString(Convert.ToInt32(key_decoding.Text, 10), 16);
